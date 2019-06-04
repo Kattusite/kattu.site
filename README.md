@@ -1,6 +1,6 @@
-# my-site
+# kattu.site
 
-This is an example website with some example information on it. 
+Welcome to my website. Please stay tuned for future developments
 
-## Here is some stuff
-Content
+## Coming Soon
+Exciting content!
