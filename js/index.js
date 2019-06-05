@@ -1,7 +1,7 @@
 const interval  = 750;
 const maxSparks = 80;
-const avgDur    = 6;
-const varDur    = 2;
+const avgDur    = 4;
+const varDur    = avgDur * 0.25;
 const height    = 80;
 const width     = 4;
 

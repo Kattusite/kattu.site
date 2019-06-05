@@ -40,7 +40,7 @@ h2 {
 .trail {
   position: absolute;
   top: 0px;
-  background-image: linear-gradient(#fcfc9f00, #fcfc9f33, #fcfc9fcc);
+  background-image: linear-gradient(#fcfc9f00, #fcfc9f22, #fcfc9fcc);
   width: 100%;
   height: 100%;
   z-index: -2;
