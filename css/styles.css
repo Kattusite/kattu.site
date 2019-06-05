@@ -12,6 +12,10 @@ h2 {
   font-size: 80px;
   text-shadow: #2cb8d8 -2px 3px;
   z-index: 10;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 /* The container for an ember and a trail */
