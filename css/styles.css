@@ -1,6 +1,6 @@
 body {
   font-family: 'Fira Mono', monospace;
-  background-color: #444;
+  background-color: #32382d;
   color: #a3ea4d;
 }
 
@@ -10,13 +10,13 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 80px;
-  text-shadow: #2cb8d8 -2px 3px;
+  text-shadow: #459213 -2px 3px;
   z-index: 10;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  cursor: pointer;
+  cursor: default;
 }
 
 /* The container for an ember and a trail */
@@ -40,7 +40,8 @@ h2 {
 .trail {
   position: absolute;
   top: 0px;
-  background-image: linear-gradient(#fcfc9f00, #fcfc9f22, #fcfc9fcc);
+  /* background-image: linear-gradient(#fcfc9f00, #fcfc9f22, #fcfc9fcc); */
+  background-image: linear-gradient(#aac18700, #aac18722, #aac187cc);
   width: 100%;
   height: 100%;
   z-index: -2;
@@ -49,7 +50,8 @@ h2 {
 /* The bright core of the spark */
 .ember {
   position: absolute;
-  background-color: #fcfc9f;
+  /* background-color: #fcfc9f; */
+  background-color: #aac187;
   bottom: 0px;
   width: 100%;
   padding-top: 100%; /* enforce 1:1 aspect ratio */
