@@ -104,7 +104,7 @@ h2 {
     box-shadow: #459213 -2px 3px;
     color: #459213;
 
-    animation: grow 1s 0s;
+    animation: grow 1s ease 0s 1 forwards;
 }
 
 .bubble span {
@@ -117,4 +117,28 @@ h2 {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+#projects {
+  position: fixed;
+  top: 60%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+#games {
+  position: fixed;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+#tools {
+  position: fixed;
+  top: 60%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
 }
