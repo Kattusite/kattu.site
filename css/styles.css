@@ -66,3 +66,55 @@ h2 {
     top: 120%;
   }
 }
+
+@keyframes grow {
+  from {
+    width: 180px;
+    height: 180px;
+  }
+  to {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/* Link bubbles */
+.bubble {
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+    display: inline-block;
+    margin: auto;
+
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+    background-color: #4a4e47;
+    border: 2px solid;
+
+    font-size: 32px;
+    text-align: center;
+
+    user-select: none;
+}
+
+.bubble:hover {
+    background-color: #a3ea4d;
+    box-shadow: #459213 -2px 3px;
+    color: #459213;
+
+    animation: grow 1s 0s;
+}
+
+.bubble span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
