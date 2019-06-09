@@ -6,10 +6,10 @@ body {
 
 h2 {
   position: fixed;
-  top: 30%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 80px;
+  font-size: 10vw;
   text-shadow: #459213 -2px 3px;
   z-index: 10;
   -webkit-user-select: none;
@@ -17,6 +17,18 @@ h2 {
   -ms-user-select: none;
   user-select: none;
   cursor: default;
+}
+
+@media screen and (min-width: 1000px) {
+  h2 {
+    font-size: 100px;
+  }
+  .bubble {
+    width: 180px !important;
+    height: 180px !important;
+    border-radius: 90px !important;
+    font-size: 32px !important;
+  }
 }
 
 /* The container for an ember and a trail */
@@ -69,12 +81,12 @@ h2 {
 
 @keyframes grow {
   from {
-    width: 180px;
-    height: 180px;
+    transform: scale(1, 1);
+    border-radius: 9vw;
   }
   to {
-    width: 200px;
-    height: 200px;
+    transform: scale(1.1, 1.1);
+    border-radius: 7.5vw;
   }
 }
 
@@ -87,13 +99,13 @@ h2 {
     display: inline-block;
     margin: auto;
 
-    width: 180px;
-    height: 180px;
-    border-radius: 90px;
+    width: 18vw;
+    height: 18vw;
+    border-radius: 9vw;
     background-color: #4a4e47;
     border: 2px solid;
 
-    font-size: 32px;
+    font-size: 3.2vw;
     text-align: center;
 
     user-select: none;
