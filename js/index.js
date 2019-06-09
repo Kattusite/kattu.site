@@ -25,8 +25,20 @@ function spark() {
   spark.css("left", `${x}%`);
 
   // Randomly time
-  let dur = avgDur + varDur * Math.random() - (varDur/2);
+  let rnd = Math.random();
+  let rndTime = varDur * rnd - (varDur/2);
+  let dur = avgDur + rndTime;
   spark.css("animation-duration", `${dur}s`);
+
+  // experimental: make slower sparks appear further away
+  let scale;
+  if      (rnd < 0.33)    scale = 1.2;
+  else if (rnd < 0.66)    scale = 1.0;
+  else /* (rnd < 1.00) */ scale = 0.8;
+  let w = width * scale;
+  let h = height * scale;
+  spark.css("width", `${w}px`);
+  spark.css("height", `${h}px`);
 
   return spark;
 }
