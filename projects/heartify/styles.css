@@ -4,6 +4,7 @@ textarea {
   border-radius: 20px;
   padding: 30px;
   margin-top: 120px;
+  background-color: #b0e3f7;
 }
 
 button {
@@ -13,14 +14,13 @@ button {
   font-size: 24px;
   display: block;
   border-radius: 20px;
-  background-color: #bbbbff;
+  background-color: #e6c1e5;
 }
 
 button:hover {
-  background-color: #9999ff;
+  background-color: #e68181;
 }
 
 body {
-  background-color: #8888ff;
-
+  background-color: #c8ecfa;
 }
