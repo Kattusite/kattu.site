@@ -116,7 +116,7 @@ h2 {
     box-shadow: #459213 -2px 3px;
     color: #459213;
 
-    animation: grow 1s ease 0s 1 forwards;
+    animation: grow 0.5s ease 0s 1 forwards;
 }
 
 .bubble span {
