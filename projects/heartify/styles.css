@@ -1,0 +1,26 @@
+textarea {
+  margin: auto;
+  display: block;
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 120px;
+}
+
+button {
+  margin: auto;
+  width: 140px;
+  height: 80px;
+  font-size: 24px;
+  display: block;
+  border-radius: 20px;
+  background-color: #bbbbff;
+}
+
+button:hover {
+  background-color: #9999ff;
+}
+
+body {
+  background-color: #8888ff;
+
+}
